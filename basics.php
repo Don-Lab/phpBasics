@@ -61,6 +61,7 @@ while ($y <= 5) { //while (condition)
 	echo $y . "<br />";
 	$y + 1;
 }
+//When I tried the while loop, the server never loaded the file.
 
 //this helps in looping through arrays (this will run until all elements are looped)
 foreach ($food as $foodNames) { //this is taking the food array and looping through the elements. it sets the current element as $foodNames
