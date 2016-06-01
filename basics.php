@@ -60,7 +60,7 @@ for ($x = 1; $x <=10; $x++) { //for(set $var; set condition; what to do with $va
 $y = 1;
 while ($y <= 5) { //while (condition)
 	echo $y . "<br />";
-	$y + 1;
+	$y++;
 }
 //When I tried the while loop, the server never loaded the file.
 
