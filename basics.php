@@ -27,6 +27,7 @@ $variable = "This is a variable <br />"; //command for variable is $ and then yo
 $numVar = 5;
 $numVar2 = 3;
 echo $numVar + $numVar2 . "<br />"; //Concatenation uses a . instead of a + 
+//when calling the variable, you still use the $ at the beginning
 
 echo "<br />";
 
