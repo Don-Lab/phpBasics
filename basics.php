@@ -57,12 +57,11 @@ for ($x = 1; $x <=10; $x++) { //for(set $var; set condition; what to do with $va
 	echo $x . "<br />";
 }
 
-$y = 1;
-while ($y <= 5) { //while (condition)
-	echo $y . "<br />";
-	$y++;
+$X = 0;
+ while ($X <= 10) {  //while (condition)
+  echo $X . "<br />";
+  $X++;
 }
-//When I tried the while loop, the server never loaded the file.
 
 //this helps in looping through arrays (this will run until all elements are looped)
 foreach ($food as $foodNames) { //this is taking the food array and looping through the elements. it sets the current element as $foodNames
